@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* :root {
+  --blue: #4e73df;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #e74a3b;
+  --orange: #fd7e14;
+  --yellow: #f6c23e;
+  --green: #1cc88a;
+  --teal: #20c9a6;
+  --cyan: #36b9cc;
+  --white: #fff;
+  --gray: #858796;
+  --gray-dark: #5a5c69;
+  --primary: #4e73df;
+  --secondary: #858796;
+  --success: #1cc88a;
+  --info: #36b9cc;
+  --warning: #f6c23e;
+  --danger: #e74a3b;
+  --light: #f8f9fc;
+  --dark: #5a5c69;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+} */
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font-family: 'Nunito', sans-serif !important;
+  background-color: #f8f9fc;
+}
+
+/* #wrapper {
+  padding: 0 1rem;
+}
+
+#wrapper #content-wrapper {
+width: 100%;
+overflow-x: hidden;
+}
+
+#wrapper #content-wrapper #content {
+flex: 1 0 auto;
+} */
+
+.bg-primary {
+  background-color: #4e73df;
+  background-size: cover;
+}
+
+.sidebar .sidebar-brand {
+  height: 4.375rem;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 1rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  z-index: 1;
+}
+
+.sidebar-dark .sidebar-brand {
+  color: #fff;
+}
+
+.border-left-warning {
+  border-left: 0.25rem solid #f6c23e !important;
+}
+
+.border-left-danger {
+  border-left: 0.25rem solid #e74a3b !important;
+}
+
+.border-left-success {
+  border-left: 0.25rem solid #1cc88a !important;
+}
+
+.shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.text-gray-100 {
+  color: #f8f9fc !important;
+}
+
+.text-gray-200 {
+color: #eaecf4 !important;
+}
+
+.text-gray-300 {
+color: #dddfeb !important;
+}
+
+.text-gray-400 {
+color: #d1d3e2 !important;
+}
+
+.text-gray-500 {
+color: #b7b9cc !important;
+}
+
+.text-gray-600 {
+color: #858796 !important;
+}
+
+.text-gray-700 {
+color: #6e707e !important;
+}
+
+.text-gray-800 {
+color: #5a5c69 !important;
+}
+
+.text-gray-900 {
+color: #3a3b45 !important;
+}
+
+.chart-area {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+}
+
+.map-indo {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .chart-area {
+    height: 30rem;
+  }
+
+  .map-indo{
+    height:30rem;
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(2, 117, 216, 0.5);
+  line-height: 46px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+color: white;
+}
+
+.scroll-to-top:hover {
+background: rgba(2, 117, 216);
+}
+
+.scroll-to-top i {
+font-weight: 800;
+}
+
+.rounded {
+border-radius: 0.35rem !important;
+}
+
+footer.sticky-footer {
+  padding: 2rem 0;
+  flex-shrink: 0;
+  color: white;
+}
+
+footer.sticky-footer .copyright {
+line-height: 1;
+font-size: 1rem;
+}

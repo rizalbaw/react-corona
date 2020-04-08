@@ -1,0 +1,28 @@
+{
+  "name": "corona",
+  "homepage": "https://selalusukses.online/corona-test/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-divider": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
